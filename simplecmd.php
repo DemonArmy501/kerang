@@ -14,3 +14,4 @@ if (!empty($cmd)) {
 } else {
     echo "";
 }
+?>
