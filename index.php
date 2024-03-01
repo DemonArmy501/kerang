@@ -1,6 +1,6 @@
 <?php
 // Tanggal dan waktu maintenance dimulai
-$maintenance_start = strtotime('2024-03-01 08:00:00'); // Tanggal dan waktu mulai maintenance (format: Y-m-d H:i:s)
+$maintenance_start = strtotime('2025-03-01 08:00:00'); // Tanggal dan waktu mulai maintenance (format: Y-m-d H:i:s)
 // Durasi maintenance dalam detik
 $maintenance_duration = 3600; // 1 jam (3600 detik)
 
